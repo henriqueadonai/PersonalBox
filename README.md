@@ -1,8 +1,9 @@
 # SFDX App
- sfdx force:auth:web:login -d -a DevHUb
- sfdx force:project:create -n PersonalBox --template standard
- sfdx force:org:create -s -f config/project-scratch-def.json -a PersonalBox
-
+ 1. sfdx force:auth:web:login -d -a DevHUb
+ 2. sfdx force:project:create -n PersonalBox --template standard
+ 3. sfdx force:org:create -s -f config/project-scratch-def.json -a PersonalBox
+ 4. sfdx force:org:open
+ 
 ## Dev, Build and Test
 
 ## Resources
