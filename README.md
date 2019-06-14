@@ -12,5 +12,6 @@
 ## Issues
 
 ## Links and examples in this org
-- [][Asynchronous Apex Triggers ](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-asynchronous-apex-triggers-in-summer-19.html)
-- [][Custom Notifications in Summer](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-custom-notifications-in-summer-19.html)
+- [x] Add information
+- [] [Asynchronous Apex Triggers ](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-asynchronous-apex-triggers-in-summer-19.html)
+- [] [Custom Notifications in Summer](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-custom-notifications-in-summer-19.html)
