@@ -26,7 +26,12 @@
 * git add .
 * git commit -m "new changes"
 * git push --set-upstream origin master
-* git checkout -b "new branch"
 
+**Push the branch to the remote repository
+* git checkout -b "new branch"
+* git push -u origin OrgDevelopmentModel
+
+**Pull request
+git checkout master
 
 - [Git Information](https://trailhead.salesforce.com/en/content/learn/modules/git-and-git-hub-basics/work-with-teams-in-git-hub) 
