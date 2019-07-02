@@ -7,6 +7,8 @@
  * sfdx force:org:create -s -f config/project-scratch-def.json -a PersonalBox
  * sfdx force:org:open
 
+ * sfdx force:source:pull
+ 
 ## Dev, Build and Test
 
 ## Resources
@@ -24,3 +26,7 @@
 * git add .
 * git commit -m "new changes"
 * git push --set-upstream origin master
+* git checkout -b "new branch"
+
+
+- [Git Information](https://trailhead.salesforce.com/en/content/learn/modules/git-and-git-hub-basics/work-with-teams-in-git-hub) 
