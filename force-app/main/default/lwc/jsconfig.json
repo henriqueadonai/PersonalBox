@@ -2,7 +2,26 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/bikeCard": [
+                "bikeCard/bikeCard.js"
+            ],
+            "c/standardComponent": [
+                "standardComponent/standardComponent.js"
+            ],
+            "c/data": [
+                "data/data.js"
+            ],
+            "c/list": [
+                "list/list.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
+            ],
+            "c/selector": [
+                "selector/selector.js"
+            ]
+        }
     },
     "include": [
         "**/*",
