@@ -21,9 +21,17 @@
 ## Links and examples in this org
 - [x] [Test and deploy Changes](https://trailhead.salesforce.com/content/learn/modules/org-development-model/test-and-deploy-changes)
 - [x] [Developer Maintenance Spring 19](https://trailhead.salesforce.com/content/learn/modules/platform-developer1-maintenance-spring19)
+- [x] [Lightning Web components Basics](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics)
 - [] [Asynchronous Apex Triggers ](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-asynchronous-apex-triggers-in-summer-19.html)
 - [] [Custom Notifications in Summer](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-custom-notifications-in-summer-19.html)
 - [] [External Objects](https://trailhead.salesforce.com/en/content/learn/modules/lightning_connect/lightning_connect_introduction)
+
+## How to Deploy LWC to Org
+* Ctr+Ship+P = Authorize and Org
+* sfdx force:source:deploy -p .\force-app\main\default\lwc\
+* sfdx force:user:permset:assign -n XXXX  Permission Sets
+it  's done
+[Deploy Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_source.htm)
 
 ## Git commands
 * git add .

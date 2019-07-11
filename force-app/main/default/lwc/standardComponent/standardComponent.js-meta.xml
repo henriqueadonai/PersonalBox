@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="StandardComponent">
+    <apiVersion>46.0</apiVersion>
+    <!-- isExposed (true or false) makes the component available from other namespaces. 
+    Only set this to true to make a component usable in a managed package or by Lightning App Builder in another org. -->
+    <isExposed>true</isExposed>
+    <!-- targets specify which types of Lightning pages the component can be added to in the Lightning App Builder.
+    targetConfigs let you specify behavior specific to each type of Lightning page, including things like which objects support the componen 
+        https://developer.salesforce.com/docs/component-library/documentation/lwc/lwc.reference_configuration_tags
+-->
+        <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+</LightningComponentBundle>
