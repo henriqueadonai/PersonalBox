@@ -25,12 +25,13 @@
 - [] [Asynchronous Apex Triggers ](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-asynchronous-apex-triggers-in-summer-19.html)
 - [] [Custom Notifications in Summer](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-custom-notifications-in-summer-19.html)
 - [] [External Objects](https://trailhead.salesforce.com/en/content/learn/modules/lightning_connect/lightning_connect_introduction)
+- [x] [Breaking Runtime Dependecies](https://developer.salesforce.com/blogs/2019/07/breaking-runtime-dependencies-with-dependency-injection.html)
 
 ## How to Deploy LWC to Org
 * Ctr+Ship+P = Authorize and Org
 * sfdx force:source:deploy -p .\force-app\main\default\lwc\
 * sfdx force:user:permset:assign -n XXXX  Permission Sets
-it  's done
+**It's done**
 [Deploy Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_source.htm)
 
 ## Git commands
@@ -42,7 +43,7 @@ it  's done
 * git checkout -b "new branch"
 * git push -u origin OrgDevelopmentModel
 
-**Pull request
+**Pull request**
 git checkout master
 
 - [Git Information](https://trailhead.salesforce.com/en/content/learn/modules/git-and-git-hub-basics/work-with-teams-in-git-hub) 

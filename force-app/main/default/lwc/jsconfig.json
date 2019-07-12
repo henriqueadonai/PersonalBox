@@ -6,20 +6,23 @@
             "c/bikeCard": [
                 "bikeCard/bikeCard.js"
             ],
-            "c/standardComponent": [
-                "standardComponent/standardComponent.js"
-            ],
             "c/data": [
                 "data/data.js"
+            ],
+            "c/detail": [
+                "detail/detail.js"
             ],
             "c/list": [
                 "list/list.js"
             ],
-            "c/tile": [
-                "tile/tile.js"
-            ],
             "c/selector": [
                 "selector/selector.js"
+            ],
+            "c/standardComponent": [
+                "standardComponent/standardComponent.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
             ]
         }
     },
