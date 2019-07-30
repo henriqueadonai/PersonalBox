@@ -26,9 +26,12 @@
 - [] [Custom Notifications in Summer](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-custom-notifications-in-summer-19.html)
 - [] [External Objects](https://trailhead.salesforce.com/en/content/learn/modules/lightning_connect/lightning_connect_introduction)
 - [x] [Breaking Runtime Dependecies](https://developer.salesforce.com/blogs/2019/07/breaking-runtime-dependencies-with-dependency-injection.html)
+<<<<<<< HEAD
 - [] [Apex Enterprise Patterns: Service Layer](https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl)
 - [] [PDF in LWC](https://developer.salesforce.com/blogs/2019/07/display-pdf-files-with-lightning-web-components.html)
 - [][Streamer Monitor](https://developer.salesforce.com/blogs/2019/07/a-refresher-on-the-four-streaming-apis-and-a-monitoring-tool.html)
+=======
+>>>>>>> 7a84e4e98a386bc00330dee2042d2dff3a205bb7
 
 ## How to Deploy LWC to Org
 * Ctr+Ship+P = Authorize and Org
