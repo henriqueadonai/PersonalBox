@@ -21,7 +21,7 @@ public with sharing class OrderingService {
         // ServiceImplementation.load() runs the SOQL query that retrieves the medatada
         //Service_Implementation__mdt services = ServiceImplementation.load();
         //https://help.salesforce.com/articleView?id=custommetadatatypes_overview.htm
-        ShippingImplementation.load();
+        //ShippingImplementation.load();
 
         // Inject the shipping service implementation
         // (services.shipping is either FedExImpl, DHLImpl or any other implementation)

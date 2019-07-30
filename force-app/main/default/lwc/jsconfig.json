@@ -23,6 +23,9 @@
             ],
             "c/tile": [
                 "tile/tile.js"
+            ],
+            "c/uploadPhotos": [
+                "uploadPhotos/uploadPhotos.js"
             ]
         }
     },
