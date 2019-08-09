@@ -5,6 +5,14 @@
     "**/bower_components": true,
     "**/.sfdx": true
   },
+<<<<<<< HEAD
   "eslint.nodePath": "c:\\Users\\henrique.cabral\\.vscode\\extensions\\salesforce.salesforcedx-vscode-lwc-46.9.0\\node_modules",
+=======
+<<<<<<< HEAD
+  "eslint.nodePath": "c:\\Users\\henrique.cabral\\.vscode\\extensions\\salesforce.salesforcedx-vscode-lwc-46.7.0\\node_modules",
+=======
+  "eslint.nodePath": "c:\\Users\\henrique.cabral\\.vscode\\extensions\\salesforce.salesforcedx-vscode-lwc-46.5.0\\node_modules",
+>>>>>>> 7a84e4e98a386bc00330dee2042d2dff3a205bb7
+>>>>>>> fbfe81f5358f5d115df7006f4a2b2055e993a242
   "salesforcedx-vscode-core.show-cli-success-msg": false
 }
