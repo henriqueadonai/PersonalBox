@@ -1,5 +1,5 @@
 # Link for DX
- [All you need to know about DX] (https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/install)
+ [All you need to know about DX](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/install)
 
 # SFDX App
  * sfdx force:auth:web:login -d -a DevHUb
@@ -13,6 +13,10 @@
 ## Dev, Build and Test
 
 ## Resources
+* Enabling Deploy on Save in your project is straightforward: simply update your .vscode/settings.json file with the config "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true.
+* Retrieve Metadata from the UI. To enable this feature you need to go to the VS Code settings and enable Org Browser. Also, for now this feature only works against non-scratch orgs – it will automatically hide when you are authenticated against scratch orgs. Go to File->Setting to fin the org Browser
+* Lightning Explorer in the VS Code Settings
+* Setup Prettier
 
 ## Description of Files and Directories
 
@@ -26,6 +30,10 @@
 - [] [Custom Notifications in Summer](https://developer.salesforce.com/blogs/2019/06/get-buildspiration-with-custom-notifications-in-summer-19.html)
 - [] [External Objects](https://trailhead.salesforce.com/en/content/learn/modules/lightning_connect/lightning_connect_introduction)
 - [x] [Breaking Runtime Dependecies](https://developer.salesforce.com/blogs/2019/07/breaking-runtime-dependencies-with-dependency-injection.html)
+- [] [Convert a JavaScript Datepicker to a Lightning Web Component](https://developer.salesforce.com/blogs/2019/08/convert-a-javascript-datepicker-to-a-lightning-web-component.html)
+- [] [Live Coding: Handling Triggers in a Multi-Package Org](https://developer.salesforce.com/blogs/2019/08/live-coding-with-simon-goodyear.html)
+- [] [Scaling data](https://developer.salesforce.com/blogs/2019/08/scaling-data-access-with-app-layer-cache.html)
+
 
 ## How to Deploy LWC to Org
 * Ctr+Ship+P = Authorize and Org
