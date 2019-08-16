@@ -23,12 +23,9 @@
             ],
             "c/tile": [
                 "tile/tile.js"
-<<<<<<< HEAD
             ],
             "c/uploadPhotos": [
                 "uploadPhotos/uploadPhotos.js"
-=======
->>>>>>> 7a84e4e98a386bc00330dee2042d2dff3a205bb7
             ]
         }
     },
