@@ -1,3 +1,5 @@
+//https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_with_security_enforced.htm
+
 @RestResource(urlMapping='/secureApexRest')
 global with sharing class SecureApexRest {
     @HttpGet
