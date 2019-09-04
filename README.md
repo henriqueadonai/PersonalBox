@@ -3,7 +3,7 @@
 
 # SFDX App
  * sfdx force:auth:web:login -d -a DevHUb
- * sfdx force:project:create -n PersonalBox --template standard
+ * sfdx force:project:create -n PersonalBox --template standard (Create From scratch)
  * sfdx force:org:create -s -f config/project-scratch-def.json -a PersonalBox
  * sfdx force:org:open
 
@@ -36,6 +36,7 @@
 - [] [Apex Enterprise Patterns: Service Layer](https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl)
 - [] [PDF in LWC](https://developer.salesforce.com/blogs/2019/07/display-pdf-files-with-lightning-web-components.html)
 - [] [Streamer Monitor](https://developer.salesforce.com/blogs/2019/07/a-refresher-on-the-four-streaming-apis-and-a-monitoring-tool.html)
+- [x] [Building a Set from any field](https://bigassforce.com/field-keysets)
 
 ## How to Deploy LWC to Org
 * Ctr+Ship+P = Authorize and Org
