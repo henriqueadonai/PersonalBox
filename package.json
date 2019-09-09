@@ -1,0 +1,23 @@
+{
+  "name": "personalbox",
+  "version": "1.0.0",
+  "description": "[All you need to know about DX](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/install)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriqueadonai/PersonalBox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriqueadonai/PersonalBox/issues"
+  },
+  "homepage": "https://github.com/henriqueadonai/PersonalBox#readme",
+  "devDependencies": {
+    "prettier": "1.18.2",
+    "prettier-plugin-apex": "1.0.0-rc.6"
+  }
+}
