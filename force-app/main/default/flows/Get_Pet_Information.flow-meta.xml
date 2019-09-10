@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Get_Pet_by_ID</name>
+        <label>Get Pet by ID</label>
+        <locationX>284</locationX>
+        <locationY>289</locationY>
+        <actionName>PetStore_getPetById__Service</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Update_Account</targetReference>
+        </connector>
+        <inputParameters>
+            <name>petId</name>
+            <value>
+                <numberValue>1000.0</numberValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <interviewLabel>Get Pet Information {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Get Pet Information</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Update_Account</name>
+        <label>Update Account</label>
+        <locationX>407</locationX>
+        <locationY>518</locationY>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Burlington Textiles Corp of America</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Description</field>
+            <value>
+                <elementReference>PetCategory</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <startElementReference>Get_Pet_by_ID</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>PetCategory</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>PetId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Pet Name</description>
+        <name>PetName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>Pet Status</description>
+        <name>PetStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>
