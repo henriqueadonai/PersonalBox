@@ -52,5 +52,5 @@ trigger AsyncObjectChangeAsyncTrigger on AsyncObject__ChangeEvent (after insert)
 }*/
 
 
-}
+//}
 
