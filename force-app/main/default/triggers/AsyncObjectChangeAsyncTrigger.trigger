@@ -1,8 +1,8 @@
 //https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_change_event_triggers.htm
 //https://trailhead.salesforce.com/en/content/learn/modules/change-data-capture
-
 //Comments:
 // It supports change events for the most popular standard objects including Account, Contact, Lead, User, Order, OrderItem, Product2, and others.
+
 trigger AsyncObjectChangeAsyncTrigger on AsyncObject__ChangeEvent (after insert) {
     system.debug('Async Change Event');
     List<AsyncObject__ChangeEvent> lstAsync = Trigger.new;
@@ -50,3 +50,7 @@ trigger AsyncObjectChangeAsyncTrigger on AsyncObject__ChangeEvent (after insert)
      "replayId":1
    }
 }*/
+
+
+}
+
