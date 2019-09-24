@@ -13,7 +13,7 @@ export default class WireGetRecord extends LightningElement {
   @wire(createRecord, { recordId: "$recordId", fields: [NAME_FIELD] })
   record;
 
-  get name() {
+  get GetName() {
     console.log("record", this.record);
 
     return "Name return";
