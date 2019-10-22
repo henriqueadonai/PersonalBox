@@ -42,6 +42,7 @@
 - [][streamer monitor](https://developer.salesforce.com/blogs/2019/07/a-refresher-on-the-four-streaming-apis-and-a-monitoring-tool.html)
 - [x] [Building a Set from any field](https://bigassforce.com/field-keysets)
 - [][continuation on lightning web components](https://medium.com/@jefersonchaves/continuation-on-lightning-web-components-8735b7f37fa1)
+- [][my top 4 patterns](https://medium.com/@dangoslen/my-top-4-patterns-for-writing-simple-code-466705ac0b97)
 
 ## How to Deploy LWC to Org
 
