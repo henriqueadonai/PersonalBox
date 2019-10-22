@@ -27,9 +27,6 @@
             "c/uploadPhotos": [
                 "uploadPhotos/uploadPhotos.js"
             ],
-            "c/WireGetRecord": [
-                "WireGetRecord/WireGetRecord.js"
-            ],
             "c/wireGetRecord": [
                 "wireGetRecord/wireGetRecord.js"
             ]
