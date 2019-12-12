@@ -2,10 +2,10 @@
   "orgName": "Henrique",
   "edition": "Developer",
   "features": [],
-  "hasSampleData" : true,
+  "hasSampleData": true,
   "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
     }
   }
 }
