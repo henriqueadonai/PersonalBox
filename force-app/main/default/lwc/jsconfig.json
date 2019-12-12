@@ -32,6 +32,12 @@
             ],
             "c/wireGetRecord": [
                 "wireGetRecord/wireGetRecord.js"
+            ],
+            "c/CustomRetrievePicklist": [
+                "CustomRetrievePicklist/CustomRetrievePicklist.js"
+            ],
+            "c/customRetrievePicklist": [
+                "customRetrievePicklist/customRetrievePicklist.js"
             ]
         }
     },
