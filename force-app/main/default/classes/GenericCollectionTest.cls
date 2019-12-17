@@ -16,6 +16,19 @@ public class GenericCollectionTest {
 
         List<GenericCollection.Results>  lstresults =  GenericCollection.GetFirstFromCollection(lstRequests);
         system.assert(lstresults.size() == 1);
+
+        
+        SObject sObj = lstresults[0].outputMember;
+        Schema.SObjectType sObjectType = sObj.getSObjectType();
+
+        Account acc = (Account)sObj;
+
+        system.assertEquals(Schema.Account.SObjectType, sObj.getSobjectType());
+        system.assertEquals(Schema.Account.SObjectType, acc.getSobjectType());
+
+        
+
+
         
     }
 
