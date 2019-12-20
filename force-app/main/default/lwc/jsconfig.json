@@ -6,6 +6,9 @@
             "c/bikeCard": [
                 "bikeCard/bikeCard.js"
             ],
+            "c/customRetrievePicklist": [
+                "customRetrievePicklist/customRetrievePicklist.js"
+            ],
             "c/data": [
                 "data/data.js"
             ],

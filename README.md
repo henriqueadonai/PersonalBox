@@ -42,6 +42,10 @@
 - [][streamer monitor](https://developer.salesforce.com/blogs/2019/07/a-refresher-on-the-four-streaming-apis-and-a-monitoring-tool.html)
 - [x] [Building a Set from any field](https://bigassforce.com/field-keysets)
 - [][continuation on lightning web components](https://medium.com/@jefersonchaves/continuation-on-lightning-web-components-8735b7f37fa1)
+- [][my top 4 patterns](https://medium.com/@dangoslen/my-top-4-patterns-for-writing-simple-code-466705ac0b97)
+- [x] [Retrieving Picklist Values Without Using Apex](https://developer.salesforce.com/blogs/2019/12/retrieving-picklist-values-without-using-apex.html)
+- [x] [Build Invocable actions that work for Multiple Objects](https://releasenotes.docs.salesforce.com/en-us/spring20/release-notes/rn_forcecom_flow_fbuilder_dynamic_types.htm)
+
 
 ## How to Deploy LWC to Org
 
