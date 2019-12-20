@@ -14,6 +14,7 @@ export default class WireGetRecord extends LightningElement {
   record;
 
   get name() {
+
     console.log("record", this.record);
 
     return "Name return";
